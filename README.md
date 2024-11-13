@@ -23,7 +23,7 @@ Results can be displayed graphically with `matplotlib` or printed in the console
 If you're using Python 3.11.* or lower, replace the line 3 with
 
 ```python
-from typing import TypeAlias
+from typing import Tuple, TypeAlias
 ```
 
 and line 23 with
