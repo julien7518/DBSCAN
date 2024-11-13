@@ -35,7 +35,6 @@ def random_dataset(nb_points: int, minimum: float, maximum: float, nb_decimals: 
     """
     datas: list[Point] = []
     for i in range(nb_points):
-
         datas.append(Point(round(random.uniform(minimum, maximum), nb_decimals), round(random.uniform(minimum, maximum), nb_decimals)))
     return datas
 
